@@ -1,0 +1,28 @@
+.errorpage{
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    gap: 15px;
+}
+
+.errorpage h3{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.errorpage .button{
+    height: 45px;
+    width: 110px;
+    background-color: blue;
+    color: white;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 600;
+}
